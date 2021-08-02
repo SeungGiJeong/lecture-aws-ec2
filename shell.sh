@@ -24,4 +24,4 @@ git clone https://github.com/SeungGiJeong/lecture-aws-ec2.git
 
 cd lecture-aws-ec2
 
-pip3 install -r requirements.txt && python3 manage.py &
+pip3 install -r requirements.txt && python3 manage.py
