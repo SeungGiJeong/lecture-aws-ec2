@@ -18,10 +18,10 @@ Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="userdata.txt"
  
 #!/bin/bash
-sudo apt update -y && sudo apt upgrade -y && \
-sudo apt-get install python3.7 -y && sudo apt install python3-pip -y
-git clone https://github.com/SeungGiJeong/lecture-aws-ec2.git
-
-cd lecture-aws-ec2
-
-pip3 install -r requirements.txt && python3 manage.py
+sudo apt update -y && sudo apt upgrade -y
+sudo apt-get install python3.7 -y
+sudo apt install python3-pip -y
+cd /home/ubuntu/
+git clone https://github.com/SeungGiJeong/lecture-aws-ec2.git 
+pip3 install -r /home/ubuntu/lecture-aws-ec2/requirements.txt
+python3 /home/ubuntu/lecture-aws-ec2/manage.py &
